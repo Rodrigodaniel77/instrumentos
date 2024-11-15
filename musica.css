@@ -1,0 +1,50 @@
+.header{
+    display: block;
+    background-color: DarkGreen;
+    padding: 20px;
+    text-align: center;
+}
+body{
+    font-family: arial black;
+    margin: 0;
+    padding: 20px;
+    background-color:LightCyan;
+}
+
+.cabecera{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    padding: 10px;
+}
+.cabecera a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+.cabecera a:hover{
+    background-color: white;
+    border-radius: 5px;
+}
+p{
+    font: size 14px;
+    color: purple;
+}
+h1{
+    font-size: 28px;
+    color: red;
+     text-align: center;
+}
+   
+    
+    
+h2{
+    font-size: 20px;
+    color: blue;
+}
+table{
+      padding:15px;
+      background-color: rgb(10, 194, 169);
+      border: 2px solid blue;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+	<head>
+		<title>Encuesta</title>
+                <link  rel="stylesheet" href="musica.css">
+	</head>
+		<body>
+                    
+                       <h1>Para salir apreta la flechita en la parte superios lado izquierdo</h1>
+             </nav>
+			<blockquote><h2><font face="Georgia">Encuesta de instrumentos musicales</font><h2></blockquote>
+			<blockquote>
+			<form action="/action_page.php">
+				
+
+
+				<label for="ins">instrumento faborito</label><br>                                     
+				<input type="text"  name="ins" required="" pattern="[a-zA-Z]+"><br>
+				
+				
+				
+			<div id="contenedor">
+				<h3> Que instrumento puedes tocar se honesto?</h3>
+                                  
+                  
+				<form id="formulario" name="formulario" method="post" action="data.php" required="">
+					<input type="checkbox" name="opcion1" value="1" >Piano<br>
+					<input type="checkbox" name="opcion2" value="2" >Violin<br>
+					<input type="checkbox" name="opcion3" value="3" >Flauta<br>
+					<input type="checkbox" name="opcion4" value="4" >Guitarra<br>
+					<input type="checkbox" name="opcion5" value="5" >Zampo a<br>
+					<input type="checkbox" name="opcion6" value="6" >Tabla<br>
+					<input type="checkbox" name="opcion7" value="7" >Tambor<br>
+					<input type="checkbox" name="opcion8" value="8" >Trompeta<br>
+					<input type="checkbox" name="opcion9" value="9" >Clarinete<br>
+					<input type="checkbox" name="opcion10" value="10" >Saxofon<br>
+                                            
+				<h3> Prefieres tocar tu intrumento en?</h3>
+					<input type="radio" name="opcion1" value="1" required="">Calle
+                                          <input type="radio" name="opcion1" value="1" required="">Salon de musica
+					<input type="radio" name="opcion2" value="2" required="">Casa<br>
+				<h3> En que departamento eres?</h3>
+				<select name="departamento" id="departamento">
+					<option value="1">La Paz</option>
+					<option value="2">Cochabamba</option>
+					<option value="3">Santa Cruz</option>
+					<option value="4">Oruro</option>
+					<option value="5">Chuquisaca</option>
+					<option value="6">Beni</option>
+					<option value="7">Pando</option>
+					<option value="8">Potosi</option>
+					<option value="9">Tarija</option>
+				</select><br>
+				<br>
+                                    <h2>Tu opinion</h2>
+<form>
+<textarea name="message" rows="10" cols="50">Escribe tu opinion del intrumentos musicales.
+</textarea>
+<br><br>
+
+                        </center>
+			</form>
+				<input type="submit">   <input type="reset">
+			</form>
+		</body>
+             
+</html>
